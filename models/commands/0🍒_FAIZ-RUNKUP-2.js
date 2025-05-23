@@ -2,8 +2,8 @@ module.exports.config = {
         name: "FAIZ-RANKUP-2",
         version: "3.3.1",
         hasPermssion: 1,
-        credits: "FAIZ ANSARI",
-        description: "THIS BOT IS MADE BY FAIZ ANSARI",
+        credits: "FAIZ BABU",
+        description: "THIS BOT IS MADE BY FAIZ BABU",
         commandCategory: "LEVAL UP",
         dependencies: {
                 "fs-extra": ""
@@ -52,21 +52,20 @@ module.exports.handleEvent = async function({ api, event, Currencies, Users, get
                 const moduleName = this.config.name;
 
     var background = [
-  "https://i.imgur.com/Wq7efJC.jpeg",
-  "https://i.imgur.com/gLXQyII.jpeg",
-  "https://i.imgur.com/kAcEKOQ.jpeg",
-  "https://i.imgur.com/GbWFfiK.jpeg",
-  "https://i.imgur.com/tPy2baN.jpeg",
-  "https://i.imgur.com/swJHqHY.jpeg",
-  "https://i.imgur.com/PLAk5lF.jpeg",
-  "https://i.imgur.com/o4syCl9.jpeg",
-  "https://i.imgur.com/PWiytxn.jpeg",
-  "https://i.imgur.com/BqEE1yO.jpeg",
-  "https://i.imgur.com/DeqKZmr.jpeg",
-  "https://i.imgur.com/Ibw3A27.jpeg",
-  "https://i.imgur.com/fDbNTuC.jpeg",
-
-     ];
+  "https://i.ibb.co/TDgg2Xpr/Wq7efJC.jpg",
+  "https://i.ibb.co/q3P7PdDK/gLXQyII.jpg",
+  "https://i.ibb.co/Hphvspsm/kAcEKOQ.jpg",
+  "https://i.ibb.co/LzzcJ2ks/GbWFfiK.jpg",
+  "https://i.ibb.co/fVZLH8z8/tPy2baN.jpg",
+  "https://i.ibb.co/jv5pHCM6/swJHqHY.jpg",
+  "https://i.ibb.co/VcDX77xf/PLAk5lF.jpg",
+  "https://i.ibb.co/BxJ2TVS/o4syCl9.jpg",
+  "https://i.ibb.co/Rp6ttyHN/PWiytxn.jpg",
+  "https://i.ibb.co/GQ9LgJGL/BqEE1yO.jpg",
+  "https://i.ibb.co/d4FY1WmP/DeqKZmr.jpg",
+  "https://i.ibb.co/spBq5c0K/Ibw3A27.jpg",
+  "https://i.ibb.co/LzzcJ2ks/GbWFfiK.jpg",
+       ];
     var rd = background[Math.floor(Math.random() * background.length)];
     let getAvtmot = (
     await axios.get(
